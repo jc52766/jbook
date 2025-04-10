@@ -1,9 +1,11 @@
-= Optimisation
+= Demand Fill Optimisation
 \
 + xo = Options\
 + xs = Random selection from options (xo)\
 + xp = Problem to solve, which is the column sum of xs\
 + Solve it. Solve knowing only xp and xo. Being blind to xs\
+\
+Think of each column as a product and each row as an option for how much of each product. Thinking possible pallet configurations or possible cattle carcasse breakdowns makes these options more understandable.\
 \
 ```j
    nn=:4
