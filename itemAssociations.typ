@@ -4,7 +4,7 @@
 + pb = % baskets containing each product\
 + ep = Expected % baskets containing each pair of products\
 + ap = actual % baskets containing each pair of products\
-+ Goal is to calculate lift: ap/ep\
++ Calculate lift: ap/ep\
 \
 ```j
    nn=:4
