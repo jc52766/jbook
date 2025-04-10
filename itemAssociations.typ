@@ -1,10 +1,10 @@
 = Item Associations
 \
-+ Create some data (d): rows=baskets, columns=products, 1=product in basket\
-+ Get % baskets containing each product (pb)\
-+ Get expected % baskets containing each pair of products (ep)\
-+ Get actual % baskets containing each pair of products (ap)\
-+ Calc lift: ap/ep\
++ d = data. Rows: baskets, columns: products, where 1=product in basket\
++ pb = % baskets containing each product\
++ ep = Expected % baskets containing each pair of products\
++ ap = actual % baskets containing each pair of products\
++ Goal is to calculate lift: ap/ep\
 \
 ```j
    nn=:4

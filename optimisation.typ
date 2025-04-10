@@ -1,9 +1,9 @@
 = Optimisation
 \
-+ Create options (xo)\
-+ Randomly solve (xs) selecting from options\
-+ Only the column sum of xs will be our problem (xp) to solve knowing only it and xo whilst being blind to xs\
-+ Solve it\
++ xo = Options\
++ xs = Random selection from options (xo)\
++ xp = Problem to solve, which is the column sum of xs\
++ Solve it. Solve knowing only xp and xo. Being blind to xs\
 \
 ```j
    nn=:4
