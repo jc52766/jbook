@@ -1,7 +1,7 @@
 = Optimisation
 \
 + Create options (xo)\
-+ Randomly solve (xs) selecting from op\
++ Randomly solve (xs) selecting from options\
 + Only the aggregate of xs will be our problem (xp) to solve knowing only it and xo whilst being blind to xs\
 + Solve it\
 \
