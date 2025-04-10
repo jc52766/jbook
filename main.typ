@@ -9,3 +9,6 @@
 #include "itemAssociations.typ"
 #pagebreak()
 #include "optimisationDemandFill.typ"
+#pagebreak()
+#include "optimisationProfit.typ"
+#pagebreak()
