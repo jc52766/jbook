@@ -4,7 +4,7 @@ NB. optimisation
 ]xp=:4 2 2
 ]<xt=:(4,3) $ 0 NB. start with all zeros
 ]<wdf=:10 1 1 NB. demand fill weights
-]<wde=:_10 0 0 NB. demand exceeded weights
+]<wde=:_10 _0.5 _0.5 NB. demand exceeded weights
 eval=:3 : 0
 csy=.+/"2 y
 df=. xp <. csy
