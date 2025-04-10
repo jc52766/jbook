@@ -10,6 +10,3 @@
 
 ]
 
-\
-
-#datetime.today().display()
